@@ -1,7 +1,7 @@
-public class DescuentoFrecuente
+public class DescuentoTemporadaBaja
         implements PoliticaDescuento {
 
-    private static final double PORCENTAJE = 0.10;
+    private static final double PORCENTAJE = 0.15;
 
     @Override
     public double calcular(double valorCompra) {
