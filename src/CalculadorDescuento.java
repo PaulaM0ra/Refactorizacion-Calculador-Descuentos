@@ -1,19 +1,23 @@
 public class CalculadorDescuento {
 
-    private final PoliticaDescuento politica;
+    public double calcular(
+            String tipo,
+            double valorCompra) {
 
-    public CalculadorDescuento(
-            PoliticaDescuento politica) {
+        if (tipo.equals("FRECUENTE")) {
 
-        if (politica == null) {
-            throw new IllegalArgumentException(
-                    "La politica de descuento es obligatoria");
+            return valorCompra * 0.10;
+
+        } else if (tipo.equals("TEMPORADA_BAJA")) {
+
+            return valorCompra * 0.15;
+
+        } else if (tipo.equals("CONVENIO")) {
+
+            return valorCompra * 0.20;
+
         }
 
-        this.politica = politica;
-    }
-
-    public double calcular(double valorCompra) {
-        return politica.calcular(valorCompra);
+        return 0;
     }
 }

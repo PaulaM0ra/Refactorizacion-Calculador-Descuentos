@@ -70,3 +70,6 @@ Resultados esperados para una compra de 100000:
 - Pruebas independientes.
 - Incorporación de nuevas políticas sin modificar el calculador.
 
+## Autora
+
+Paula Dayana Mora Acosta
