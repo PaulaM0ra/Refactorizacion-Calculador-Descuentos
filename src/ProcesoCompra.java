@@ -1,4 +1,4 @@
-public class ProcesoCompra {
+/*public class ProcesoCompra {
 
     public double realizarCompra(
             double valorCompra,
@@ -9,4 +9,4 @@ public class ProcesoCompra {
 
         return calculador.calcular(valorCompra);
     }
-}
+}*/
