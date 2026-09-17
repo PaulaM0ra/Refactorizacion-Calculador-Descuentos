@@ -1,3 +1,4 @@
+package main.java;
 public class CalculadorDescuento {
 
     private final PoliticaDescuento politica;

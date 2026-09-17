@@ -1,7 +1,8 @@
-public class DescuentoConvenio
+package main.java;
+public class DescuentoTemporadaBaja
         implements PoliticaDescuento {
 
-    private static final double PORCENTAJE = 0.20;
+    private static final double PORCENTAJE = 0.15;
 
     @Override
     public double calcular(double valorCompra) {
